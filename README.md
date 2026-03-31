@@ -109,13 +109,3 @@ All messages use a standard JSON envelope:
 - **npm** — [npmjs.com/package/react-godot-bridge](https://www.npmjs.com/package/react-godot-bridge)
 - **GitHub** — [github.com/MakerDZ/react-godot-bridge](https://github.com/MakerDZ/react-godot-bridge)
 
----
-
-## Publishing
-
-```bash
-cd npm
-bun install
-bun run build     # outputs to dist/
-npm publish
-```
