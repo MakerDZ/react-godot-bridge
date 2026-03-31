@@ -1,6 +1,13 @@
-# react-godot-bridge — npm package
+# react-godot-bridge
 
-Bidirectional, event-driven bridge between a React / Next.js app and a Godot 4 WebAssembly game running inside an `<iframe>`. Socket.io-style API.
+[![npm version](https://img.shields.io/npm/v/react-godot-bridge)](https://www.npmjs.com/package/react-godot-bridge)
+[![npm downloads](https://img.shields.io/npm/dm/react-godot-bridge)](https://www.npmjs.com/package/react-godot-bridge)
+[![license](https://img.shields.io/npm/l/react-godot-bridge)](https://github.com/MakerDZ/react-godot-bridge/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/MakerDZ/react-godot-bridge)](https://github.com/MakerDZ/react-godot-bridge)
+
+Bidirectional, event-driven bridge between a **React / Next.js** app and a **Godot 4 WebAssembly** game running inside an `<iframe>`. Designed to feel like Socket.io — just `emit("event")` and `on("event")`.
+
+![react-godot-bridge demo](https://raw.githubusercontent.com/MakerDZ/react-godot-bridge/main/assets/demo.png)
 
 ## Install
 
