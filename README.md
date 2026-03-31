@@ -17,9 +17,8 @@ Designed to feel like Socket.io — you just call `emit("event")` and `on("event
 
 ```
 react-godot-bridge/
-  addons/           ← Godot plugin root (Asset Library & manual install)
+  addons/           ← Godot plugin (Asset Library & manual install)
   npm/              ← npm package source  (published as "react-godot-bridge")
-  godot-plugin/     ← Godot plugin docs and source
   example/          ← Next.js demo app
 ```
 
@@ -76,7 +75,7 @@ func _on_event(event: String, data: Dictionary):
 ReactBridge.emit_to_react("player_died", { "score": 1500 })
 ```
 
-See [`godot-plugin/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/godot-plugin/README.md) for full docs.
+See [`addons/react_bridge/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/addons/react_bridge/README.md) for full docs.
 
 ---
 

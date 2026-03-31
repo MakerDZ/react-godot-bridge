@@ -89,4 +89,4 @@ Search `ReactBridge` in the **AssetLib** tab inside the Godot editor and click I
 **Option B — Manual**
 Copy `addons/react_bridge/` from the [GitHub repo](https://github.com/MakerDZ/react-godot-bridge) into your Godot project root, then add `ReactBridge` as an Autoload in **Project Settings**.
 
-See [`godot-plugin/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/godot-plugin/README.md) for full docs.
+See [`addons/react_bridge/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/addons/react_bridge/README.md) for full docs.
