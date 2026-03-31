@@ -4,6 +4,8 @@ Bidirectional, event-driven bridge between a **React / Next.js** app and a **God
 
 Designed to feel like Socket.io — you just call `emit("event")` and `on("event")`. The library handles the iframe, `postMessage`, and `JavaScriptBridge` complexity underneath.
 
+![react-godot-bridge demo](assets/demo.png)
+
 ---
 
 ## Repository Structure
