@@ -83,4 +83,4 @@ All messages use this JSON structure:
 
 ## Godot Plugin
 
-The matching GDScript autoload plugin lives in the `godot-plugin/` folder of this repository. See [`godot-plugin/README.md`](../godot-plugin/README.md).
+The matching GDScript autoload plugin lives in the `godot-plugin/` folder of this repository. See [`godot-plugin/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/godot-plugin/README.md).

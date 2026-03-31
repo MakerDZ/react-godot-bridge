@@ -7,7 +7,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/react-godot-bridge"
+    "url": "https://github.com/MakerDZ/react-godot-bridge"
+  },
+  "homepage": "https://github.com/MakerDZ/react-godot-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/MakerDZ/react-godot-bridge/issues"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

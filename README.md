@@ -1,5 +1,10 @@
 # react-godot-bridge
 
+[![npm version](https://img.shields.io/npm/v/react-godot-bridge)](https://www.npmjs.com/package/react-godot-bridge)
+[![npm downloads](https://img.shields.io/npm/dm/react-godot-bridge)](https://www.npmjs.com/package/react-godot-bridge)
+[![license](https://img.shields.io/npm/l/react-godot-bridge)](https://github.com/MakerDZ/react-godot-bridge/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/MakerDZ/react-godot-bridge)](https://github.com/MakerDZ/react-godot-bridge)
+
 Bidirectional, event-driven bridge between a **React / Next.js** app and a **Godot 4 WebAssembly** game running inside an `<iframe>`.
 
 Designed to feel like Socket.io — you just call `emit("event")` and `on("event")`. The library handles the iframe, `postMessage`, and `JavaScriptBridge` complexity underneath.
@@ -40,7 +45,7 @@ emit('jump', { height: 2 });
 const unsub = on('player_died', (p) => setScore(p.score as number));
 ```
 
-See [`npm/README.md`](npm/README.md) for full API docs.
+See [`npm/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/npm/README.md) for full API docs.
 
 ---
 
@@ -66,7 +71,7 @@ func _on_event(event: String, data: Dictionary):
 ReactBridge.emit_to_react("player_died", { "score": 1500 })
 ```
 
-See [`godot-plugin/README.md`](godot-plugin/README.md) for full docs.
+See [`godot-plugin/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/godot-plugin/README.md) for full docs.
 
 ---
 
@@ -92,6 +97,13 @@ All messages use a standard JSON envelope:
   "metadata": { "secret": "APP_KEY", "timestamp": 1711910000 }
 }
 ```
+
+---
+
+## Links
+
+- **npm** — [npmjs.com/package/react-godot-bridge](https://www.npmjs.com/package/react-godot-bridge)
+- **GitHub** — [github.com/MakerDZ/react-godot-bridge](https://github.com/MakerDZ/react-godot-bridge)
 
 ---
 
