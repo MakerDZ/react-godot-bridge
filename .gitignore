@@ -7,8 +7,3 @@ dist/
 .DS_Store
 **/.DS_Store
 
-# Godot game export binaries (user provides their own)
-example/public/game/*.png
-example/public/game/index.js
-example/public/game/index.html
-example/public/game/index.audio*.js
