@@ -1,6 +1,6 @@
 {
   "name": "react-godot-bridge",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bidirectional, event-driven bridge between React and a Godot WebAssembly game running in an iframe. Socket.io-style API.",
   "keywords": ["godot", "react", "nextjs", "webassembly", "wasm", "game", "bridge", "iframe", "postmessage"],
   "author": "",
@@ -23,7 +23,7 @@
       "require": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
