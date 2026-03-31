@@ -17,8 +17,9 @@ Designed to feel like Socket.io — you just call `emit("event")` and `on("event
 
 ```
 react-godot-bridge/
+  addons/           ← Godot plugin root (Asset Library & manual install)
   npm/              ← npm package source  (published as "react-godot-bridge")
-  godot-plugin/     ← Godot 4 Autoload plugin  (copy into your project)
+  godot-plugin/     ← Godot plugin docs and source
   example/          ← Next.js demo app
 ```
 
@@ -51,7 +52,11 @@ See [`npm/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/np
 
 ## Godot — Plugin
 
-Copy `godot-plugin/addons/react_bridge/` into your Godot project, then add the autoload in **Project Settings**:
+**Option A — Godot Asset Library (recommended)**
+Search `ReactBridge` in the **AssetLib** tab inside the Godot editor and click Install.
+
+**Option B — Manual**
+Copy `addons/react_bridge/` from this repo into your Godot project root, then add the autoload in **Project Settings**:
 
 ```ini
 [autoload]

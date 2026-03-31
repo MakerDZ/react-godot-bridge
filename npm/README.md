@@ -83,4 +83,10 @@ All messages use this JSON structure:
 
 ## Godot Plugin
 
-The matching GDScript autoload plugin lives in the `godot-plugin/` folder of this repository. See [`godot-plugin/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/godot-plugin/README.md).
+**Option A — Godot Asset Library (recommended)**
+Search `ReactBridge` in the **AssetLib** tab inside the Godot editor and click Install.
+
+**Option B — Manual**
+Copy `addons/react_bridge/` from the [GitHub repo](https://github.com/MakerDZ/react-godot-bridge) into your Godot project root, then add `ReactBridge` as an Autoload in **Project Settings**.
+
+See [`godot-plugin/README.md`](https://github.com/MakerDZ/react-godot-bridge/blob/main/godot-plugin/README.md) for full docs.
